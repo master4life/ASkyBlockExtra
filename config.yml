@@ -1,0 +1,34 @@
+# IslandConfig by Kiyan
+IslandConfig:
+  Prefix: '&7[&eIslandConfig&7]'
+  Display: '&7> &a&lIsland Configuration'
+# Jumping Pots
+Potions:
+ PotionPrefix: '&7[&bJump&7Potion&7]'
+ JumpMin: 0.30
+ JumpMax: 0.50
+DisableCrafting:
+ DisablePrefix: '&e[§7DisableCraft§e]'
+ WarnMessage: '&7&lERROR: &4You cannot craft this item. &fPlease check the &ashop&f out.'
+ Items:
+ - 145
+EnchantMe:
+ EnchantPrefix: '&7[§bSky&9Block§7]'
+Harvest:
+ auto-replant: true
+ allow-bonemeal-harvest: false
+ play-sound:
+   enabled: true
+   volume: 1
+   pitch: 1
+ hooks:
+   WorldGuard: true
+ enabled-crops:
+  carrot: true
+  potato: true
+  beetroot: true
+  nether_wart: true
+  wheat: true
+  cocoa: true
+DropParty:
+  Prefix: '&7[§bSky&9Block§7]'

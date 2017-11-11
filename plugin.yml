@@ -1,0 +1,13 @@
+name: aSkyBlockExtra
+version: 0.0.7
+main: de.kiyan.skyblockextra.Main
+description: Optimizes aSkyBlock.
+depend: [ASkyBlock, WorldEdit, WorldGuard, HolographicDisplays]
+
+commands:
+  isconfig:
+  setpotion:
+  disablecraft:
+  enchantme:
+  hreload:
+  dropparty:
