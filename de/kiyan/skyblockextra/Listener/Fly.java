@@ -77,12 +77,6 @@ public class Fly implements Listener
 
             return;
         }
-
-        if( is.getIgsFlag( Island.SettingsFlag.FLY ) )
-        {
-            player.setAllowFlight( true );
-            player.sendMessage( "§6You can fly now." );
-        }
         if( player.getAllowFlight( ) )
         {
             if( !is.getIgsFlag( Island.SettingsFlag.FLY ) )
@@ -90,6 +84,13 @@ public class Fly implements Listener
                 player.setAllowFlight( false );
                 player.setFlying( false );
                 player.sendMessage( "§6You cannot fly now." );
+            }
+        } else
+        {
+            if( is.getIgsFlag( Island.SettingsFlag.FLY ) )
+            {
+                player.setAllowFlight( true );
+                player.sendMessage( "§6You can fly now." );
             }
         }
     }
